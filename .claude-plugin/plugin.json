@@ -1,0 +1,21 @@
+{
+  "name": "yc-startup-school",
+  "version": "1.0.0",
+  "description": "YC Startup School 전체 커리큘럼을 Claude Code 스킬로. 8개 모듈 + AI Startup School + Paul Graham Guru. 각 강의의 transcript를 기반으로 학습하고, 현재 프로젝트에 적용하는 워크북.",
+  "author": {
+    "name": "Team Attention",
+    "url": "https://github.com/team-attention"
+  },
+  "repository": "https://github.com/team-attention/yc-startup-school",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "yc",
+    "startup-school",
+    "y-combinator",
+    "paul-graham",
+    "startup",
+    "founder"
+  ]
+}
