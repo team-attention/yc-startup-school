@@ -1,12 +1,12 @@
 ---
 name: ai-startup-school
 description: |
-  This skill should be used when the user mentions "AI 스타트업", "AI startup school", "AI 트렌드", "소프트웨어 3.0", "/yc-ai", "AI 창업", "AI 산업 트렌드", "AI 빌더", "Karpathy", "Sam Altman", "AGI", "vibe coding", or asks about insights from top AI leaders. Use this skill to synthesize knowledge from 15 AI Startup School transcripts (Karpathy, Altman, Musk, Nadella, Fei-Fei Li, Chollet, Ng, Srinivas, Jumper, Finn, Kaplan, Field, Truell, Masad, and panel) and apply them to the user's current AI work or startup context.
+  This skill should be used when the user mentions "AI 스타트업", "AI startup school", "AI 트렌드", "소프트웨어 3.0", "/yc-ai", "AI 창업", "AI 산업 트렌드", "AI 빌더", "Karpathy", "Sam Altman", "AGI", "vibe coding", or asks about insights from top AI leaders. Synthesizes knowledge from 15 AI Startup School transcripts — Karpathy, Altman, Musk, Nadella, Fei-Fei Li, Chollet, Ng, Srinivas, Jumper, Finn, Kaplan, Field, Truell, Masad, and panel — and applies them to the user's current AI work or startup context.
 ---
 
 # AI Startup School — Synthesized Insights from the Top Minds
 
-This skill reads all 15 AI Startup School transcripts and synthesizes the key cross-cutting insights from the world's top AI leaders. Apply these insights to the user's current AI-related work, startup strategy, or product decisions.
+Read all 15 AI Startup School transcripts and synthesize the key cross-cutting insights from the world's top AI leaders. Apply these insights to the user's current AI-related work, startup strategy, or product decisions.
 
 ## Transcript Files
 
@@ -32,7 +32,7 @@ All transcripts are located at `${CLAUDE_PLUGIN_ROOT}/transcripts/ai-startup-sch
 
 ### Step 1: Read All Transcripts
 
-Read ALL 15 transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/ai-startup-school/` before generating any response. Do not skip files — cross-transcript synthesis is the core value of this skill.
+Read ALL 15 transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/ai-startup-school/` before generating any response. Cross-transcript synthesis is the core value of this skill — do not skip files.
 
 ### Step 2: Understand the User's Context
 
@@ -46,16 +46,16 @@ If context is unclear from the conversation, infer from recent files or ask one 
 
 ### Step 3: Synthesize Across Themes
 
-Organize insights around the major cross-cutting themes that emerge from the transcripts:
+Organize insights around the major cross-cutting themes from the transcripts:
 
 **Theme 1: Software 3.0 / The New Programming Paradigm**
-- Karpathy's framing: LLMs are a new layer of compute; natural language is the new programming interface
+- Karpathy: LLMs are a new layer of compute; natural language is the new programming interface
 - Truell (Cursor): "Vibe coding" as the emergent behavior — non-engineers shipping real software
 - Masad (Replit): Software creation democratized; who builds software is changing
 
 **Theme 2: AGI Paths and Timelines**
 - Altman, Kaplan, Chollet disagree productively: scaling vs. architectural breakthroughs vs. general intelligence benchmarks
-- Chollet's ARC Prize as the honest AGI test — current LLMs fail at systematic generalization
+- Chollet's ARC Prize: the honest AGI test — current LLMs fail at systematic generalization
 - Kaplan's scaling laws: predictable capability gains, but diminishing returns per compute dollar
 
 **Theme 3: AI Hardware and Infrastructure**
@@ -80,22 +80,20 @@ Organize insights around the major cross-cutting themes that emerge from the tra
 
 ### Step 4: Apply to User's Situation
 
-Map the most relevant 2–3 themes to the user's specific context. Be direct:
+Map the most relevant 2-3 themes to the user's specific context. Be direct:
 - "Given you're building X, Karpathy's Software 3.0 framing is directly applicable because..."
 - "The tension Chollet raises between scaling and true generalization matters here because..."
-- "Srinivas's point about AI-native products vs. AI-wrapped products is exactly the decision you're facing..."
+- "Srinivas's point about AI-native vs. AI-wrapped products is exactly the decision you're facing..."
 
 ### Step 5: Highlight Actionable Takeaways
 
-Close with 3–5 concrete, prioritized actions for the user as an AI founder or builder:
+Close with 3-5 concrete, prioritized actions for the user as an AI founder or builder:
 - Specific product decisions to make or revisit
 - Technology bets to consider or avoid
 - Positioning or narrative shifts
 - Questions to test their own assumptions
 
 ## Output Format
-
-Structure the response as follows:
 
 ```
 ## AI Startup School — Insights for [User's Context]
