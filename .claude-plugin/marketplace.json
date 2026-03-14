@@ -1,0 +1,15 @@
+{
+  "name": "yc-startup-school-marketplace",
+  "owner": {
+    "name": "Team Attention",
+    "url": "https://github.com/team-attention"
+  },
+  "description": "YC Startup School 전체 커리큘럼을 Claude Code 스킬로. 8개 모듈 + AI Startup School + Paul Graham Guru.",
+  "plugins": [
+    {
+      "name": "yc-startup-school",
+      "description": "YC Startup School 8 modules + AI Startup School + PG Guru — transcript-based learning workbook",
+      "source": "./"
+    }
+  ]
+}
