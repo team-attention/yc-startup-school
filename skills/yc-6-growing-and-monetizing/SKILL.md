@@ -22,6 +22,12 @@ description: |
 3. Assess the user's current metrics, business model, and retention data
 4. Generate a workbook-style self-assessment derived from the lectures
 5. Save to `knowledge/yc-startup-school/module-6-assessment.md`
+6. Run the interactive Self-Assessment Workbook:
+   - Ask each question ONE AT A TIME using AskUserQuestion
+   - Wait for the user's response before asking the next question
+   - After each answer, provide brief feedback connecting their response to the module's frameworks
+   - After all questions, synthesize their answers into a personalized assessment
+7. Save the completed assessment (questions + answers + synthesis) to the appropriate knowledge path
 
 ## Key Frameworks
 
@@ -58,7 +64,19 @@ description: |
 - Retention and pricing gaps identified
 - PMF assessment: right signals visible?
 
-### Part 3: Workbook
+### Part 3: Interactive Workbook (AskUserQuestion)
+- Ask questions ONE AT A TIME — do not list all questions at once
+- Use AskUserQuestion tool for each question
+- After each answer, give 1-2 sentence feedback connecting to the module's framework
+- Provide multiple choice options where appropriate to make it easier to answer
+- After completing all questions, generate a synthesis:
+  - Overall readiness score (1-10) for this module's topic
+  - Top strength identified from answers
+  - Top gap identified from answers
+  - One specific action item
+- Save completed workbook to `knowledge/yc-startup-school/module-6-workbook.md`
+
+Questions to ask interactively:
 1. What is your single most important metric right now? What is its current value?
 2. What is your week-over-week growth rate for the past 4 weeks? Accelerating or decelerating?
 3. Have you drawn your cohort retention curve? Does it flatten or go to zero?

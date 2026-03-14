@@ -104,6 +104,14 @@ PG consistently says YC bets on founders, not ideas. When the user describes the
 
 Name what you observe. Be honest about the red flags.
 
+### Step 7: Run the Interactive PG-Style Diagnostic Workbook
+
+- Ask each PG-style diagnostic question ONE AT A TIME using AskUserQuestion
+- Wait for the user's response before asking the next question
+- After each answer, provide brief feedback in PG's direct voice, citing the relevant essay
+- After all questions, synthesize their answers into a personalized PG-style verdict on their startup and founder profile
+- Save the completed diagnostic (questions + answers + verdict) to the appropriate knowledge path
+
 ## PG's Core Beliefs (Always Available)
 
 These beliefs run through all 14 essays — apply them even when not explicitly prompted:
@@ -141,6 +149,26 @@ If the user describes their startup idea, always end with a PG-style verdict:
 - "This is worth pursuing because..."
 - "This has a fundamental problem: ..."
 - "The real question is whether..."
+
+### Interactive PG-Style Diagnostic Workbook (AskUserQuestion)
+- Ask each PG-style diagnostic question ONE AT A TIME — do not list all questions at once
+- Use AskUserQuestion tool for each question
+- After each answer, give 1-2 sentence feedback in PG's direct voice, citing the relevant essay
+- Provide multiple choice options where appropriate to make it easier to answer
+- After completing all questions, generate a synthesis:
+  - Overall readiness score (1-10) for this module's topic
+  - Top strength identified from answers
+  - Top gap identified from answers
+  - One specific action item — the one thing PG would tell this founder to do next
+- Save completed diagnostic to `knowledge/yc-startup-school/guru-pg-workbook.md`
+
+Questions to ask interactively:
+1. Where did your startup idea come from — did you live this problem, or did you reason your way to it? (Organic vs. forced ideas)
+2. What is the schlep you're most avoiding in this idea — the unglamorous work that makes it hard? ("Do Things That Don't Scale")
+3. Are you default alive or default dead right now? What are the exact numbers? ("Default Alive or Default Dead")
+4. What's your weekly growth rate? Give me a specific number, not a feeling. ("Startup Growth")
+5. What do the 18 mistakes tell you about your biggest current risk — which one applies most to your situation?
+6. If you had to name the one quality that will determine whether you succeed, what would it be? And do you have it? ("Be Relentlessly Resourceful")
 
 ## What This Skill Is Not
 

@@ -93,6 +93,14 @@ Close with 3-5 concrete, prioritized actions for the user as an AI founder or bu
 - Positioning or narrative shifts
 - Questions to test their own assumptions
 
+### Step 6: Run the Interactive Self-Assessment Workbook
+
+- Ask each question about the user's AI strategy ONE AT A TIME using AskUserQuestion
+- Wait for the user's response before asking the next question
+- After each answer, provide brief feedback connecting their response to the relevant speaker's framework
+- After all questions, synthesize their answers into a personalized AI strategy assessment
+- Save the completed assessment (questions + answers + synthesis) to the appropriate knowledge path
+
 ## Output Format
 
 ```
@@ -118,6 +126,26 @@ Close with 3-5 concrete, prioritized actions for the user as an AI founder or bu
 ```
 
 Always cite specific speakers by name. Avoid generic AI enthusiasm — these speakers often disagree, and the disagreements are informative.
+
+### Interactive AI Strategy Workbook (AskUserQuestion)
+- Ask questions about the user's AI strategy ONE AT A TIME — do not list all questions at once
+- Use AskUserQuestion tool for each question
+- After each answer, give 1-2 sentence feedback connecting to the relevant speaker's framework
+- Provide multiple choice options where appropriate to make it easier to answer
+- After completing all questions, generate a synthesis:
+  - Overall readiness score (1-10) for this module's topic
+  - Top strength identified from answers
+  - Top gap identified from answers
+  - One specific action item
+- Save completed workbook to `knowledge/yc-startup-school/ai-startup-school-workbook.md`
+
+Questions to ask interactively:
+1. Is your product AI-native or AI-wrapped? What would it look like to re-think it from scratch around AI? (Karpathy: Software 3.0)
+2. What is your iteration speed right now — how many product changes can you ship per week? (Ng: iteration speed as the new moat)
+3. Are you building on top of foundation models or training your own? What drives that bet? (Kaplan: scaling laws)
+4. What is your data flywheel — does using your product make it better for future users? (Srinivas: AI-native distribution advantage)
+5. Where does your product sit on the spectrum from demo to defensible? What makes it hard to replicate? (panel: defensibility)
+6. Which of the 6 AI themes from the school is most directly relevant to your product — and which is most threatening to your current approach?
 
 ## References
 

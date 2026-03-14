@@ -20,6 +20,12 @@ description: |
 3. Assess the user's fundraising stage, YC interest, and legal/cap table hygiene
 4. Generate a workbook-style self-assessment derived from the lectures
 5. Save to `knowledge/yc-startup-school/module-7-assessment.md`
+6. Run the interactive Self-Assessment Workbook:
+   - Ask each question ONE AT A TIME using AskUserQuestion
+   - Wait for the user's response before asking the next question
+   - After each answer, provide brief feedback connecting their response to the module's frameworks
+   - After all questions, synthesize their answers into a personalized assessment
+7. Save the completed assessment (questions + answers + synthesis) to the appropriate knowledge path
 
 ## Key Frameworks
 
@@ -54,7 +60,19 @@ description: |
 - Cap table and legal hygiene: IP assigned, incorporation clean, vesting in place?
 - SAFE vs. priced round decision for current stage
 
-### Part 3: Workbook
+### Part 3: Interactive Workbook (AskUserQuestion)
+- Ask questions ONE AT A TIME — do not list all questions at once
+- Use AskUserQuestion tool for each question
+- After each answer, give 1-2 sentence feedback connecting to the module's framework
+- Provide multiple choice options where appropriate to make it easier to answer
+- After completing all questions, generate a synthesis:
+  - Overall readiness score (1-10) for this module's topic
+  - Top strength identified from answers
+  - Top gap identified from answers
+  - One specific action item
+- Save completed workbook to `knowledge/yc-startup-school/module-7-workbook.md`
+
+Questions to ask interactively:
 1. What is your one-sentence company description — would it make sense to a YC partner in 10 seconds?
 2. What is your current growth rate, and what traction can you show to back it up?
 3. Why now? What changed in the world that makes this the right moment?

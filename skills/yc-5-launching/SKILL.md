@@ -22,6 +22,12 @@ description: |
 3. Analyze the user's current launch and customer acquisition stage
 4. Generate a workbook-style self-assessment derived from the lectures
 5. Save to `knowledge/yc-startup-school/module-5-assessment.md`
+6. Run the interactive Self-Assessment Workbook:
+   - Ask each question ONE AT A TIME using AskUserQuestion
+   - Wait for the user's response before asking the next question
+   - After each answer, provide brief feedback connecting their response to the module's frameworks
+   - After all questions, synthesize their answers into a personalized assessment
+7. Save the completed assessment (questions + answers + synthesis) to the appropriate knowledge path
 
 ## Key Frameworks
 
@@ -60,7 +66,19 @@ description: |
 - First customer acquisition: what's working and what's missing?
 - "Do things that don't scale" audit: what manual things should be happening right now?
 
-### Part 3: Workbook
+### Part 3: Interactive Workbook (AskUserQuestion)
+- Ask questions ONE AT A TIME — do not list all questions at once
+- Use AskUserQuestion tool for each question
+- After each answer, give 1-2 sentence feedback connecting to the module's framework
+- Provide multiple choice options where appropriate to make it easier to answer
+- After completing all questions, generate a synthesis:
+  - Overall readiness score (1-10) for this module's topic
+  - Top strength identified from answers
+  - Top gap identified from answers
+  - One specific action item
+- Save completed workbook to `knowledge/yc-startup-school/module-5-workbook.md`
+
+Questions to ask interactively:
 1. Can you describe your product in one sentence that makes sense to a stranger?
 2. Have you launched at least once? What did you learn from that launch?
 3. Who are the first 10 people you could personally reach out to today (not blast email — personally)?

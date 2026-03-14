@@ -28,6 +28,12 @@ No transcripts exist for Module 8. Both lectures are available as YouTube videos
 3. Apply the relevant themes to the user's startup context
 4. Suggest the user watch the videos for the complete stories
 5. Save any reflections to `knowledge/yc-startup-school/module-8-assessment.md`
+6. Run the interactive Self-Assessment Workbook:
+   - Ask each reflective question ONE AT A TIME using AskUserQuestion
+   - Wait for the user's response before asking the next question
+   - After each answer, provide brief feedback connecting their response to the founder story themes (Zuckerberg's conviction, Wojcicki's mission-as-moat, etc.)
+   - After all questions, synthesize their answers into a personalized assessment
+7. Save the completed assessment (questions + answers + synthesis) to the appropriate knowledge path
 
 ## Key Themes from These Founder Stories
 
@@ -57,7 +63,19 @@ No transcripts exist for Module 8. Both lectures are available as YouTube videos
 - Which themes from Wojcicki's story are most relevant? (Outsider perspective? Mission-driven? Regulatory navigation? Data flywheel?)
 - Identify the "founding story" the user is building — what will they say in 10 years about how this started?
 
-### Part 3: Workbook
+### Part 3: Interactive Workbook (AskUserQuestion)
+- Ask questions ONE AT A TIME — do not list all questions at once
+- Use AskUserQuestion tool for each reflective question
+- After each answer, give 1-2 sentence feedback connecting to the founder story themes (Zuckerberg's conviction, Wojcicki's mission-as-moat, disciplined expansion, outsider-as-asset, etc.)
+- Provide multiple choice options where appropriate to make it easier to answer
+- After completing all questions, generate a synthesis:
+  - Overall readiness score (1-10) for this module's topic
+  - Top strength identified from answers
+  - Top gap identified from answers
+  - One specific action item
+- Save completed workbook to `knowledge/yc-startup-school/module-8-workbook.md`
+
+Questions to ask interactively:
 1. What is the origin story of your startup — and is it a compelling one?
 2. Zuckerberg turned down $1B at 22. What would you need to believe to make the same decision for your company?
 3. Wojcicki built a data flywheel where users contribute to research. Is there a similar compounding asset in your business?

@@ -23,6 +23,12 @@ description: |
 3. Apply the worst-case analysis and resilience frameworks to the user's specific context
 4. Generate a workbook-style self-assessment derived from the lectures
 5. Save to `knowledge/yc-startup-school/module-1-assessment.md`
+6. Run the interactive Self-Assessment Workbook:
+   - Ask each question ONE AT A TIME using AskUserQuestion
+   - Wait for the user's response before asking the next question
+   - After each answer, provide brief feedback connecting their response to the module's frameworks
+   - After all questions, synthesize their answers into a personalized assessment
+7. Save the completed assessment (questions + answers + synthesis) to the appropriate knowledge path
 
 ## Key Frameworks
 
@@ -47,7 +53,19 @@ description: |
 - Current environment: potential co-founders nearby?
 - Energy differential check: draining job vs. energizing side work?
 
-### Part 3: Workbook
+### Part 3: Interactive Workbook (AskUserQuestion)
+- Ask questions ONE AT A TIME — do not list all questions at once
+- Use AskUserQuestion tool for each question
+- After each answer, give 1-2 sentence feedback connecting to the module's framework
+- Provide multiple choice options where appropriate to make it easier to answer
+- After completing all questions, generate a synthesis:
+  - Overall readiness score (1-10) for this module's topic
+  - Top strength identified from answers
+  - Top gap identified from answers
+  - One specific action item
+- Save completed workbook to `knowledge/yc-startup-school/module-1-workbook.md`
+
+Questions to ask interactively:
 1. What is your worst-case scenario if you started today — and can you genuinely live with it?
 2. When you work on side projects, what does that energy feel like compared to your day job?
 3. Who are the 2-3 smartest people you enjoy talking about ideas with — and are you around them regularly?

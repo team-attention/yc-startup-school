@@ -22,6 +22,12 @@ description: |
 3. If the user has an idea, score it on the 4-criteria formula and identify which recipe it came from
 4. Generate a workbook-style self-assessment derived from the lectures
 5. Save to `knowledge/yc-startup-school/module-2-assessment.md`
+6. Run the interactive Self-Assessment Workbook:
+   - Ask each question ONE AT A TIME using AskUserQuestion
+   - Wait for the user's response before asking the next question
+   - After each answer, provide brief feedback connecting their response to the module's frameworks
+   - After all questions, synthesize their answers into a personalized assessment
+7. Save the completed assessment (questions + answers + synthesis) to the appropriate knowledge path
 
 ## Key Frameworks
 
@@ -59,7 +65,19 @@ If the user has an idea, score it on all 4 criteria (1-10):
 
 Identify which recipe the idea came from. Flag any dangerous filters distorting evaluation. Check for tarpit warning signs.
 
-### Part 3: Workbook
+### Part 3: Interactive Workbook (AskUserQuestion)
+- Ask questions ONE AT A TIME — do not list all questions at once
+- Use AskUserQuestion tool for each question
+- After each answer, give 1-2 sentence feedback connecting to the module's framework
+- Provide multiple choice options where appropriate to make it easier to answer
+- After completing all questions, generate a synthesis:
+  - Overall readiness score (1-10) for this module's topic
+  - Top strength identified from answers
+  - Top gap identified from answers
+  - One specific action item
+- Save completed workbook to `knowledge/yc-startup-school/module-2-workbook.md`
+
+Questions to ask interactively:
 1. What are 3 companies you've worked at? For each: what did you learn that others don't know / what seemed broken / what did they build in-house that others need?
 2. What product or service do you desperately wish existed for yourself?
 3. What recent technological or regulatory change created an opportunity that didn't exist 2 years ago?
