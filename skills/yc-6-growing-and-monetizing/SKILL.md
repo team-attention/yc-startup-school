@@ -14,7 +14,7 @@ description: |
 
 ## Instructions
 
-1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-6/`:
+1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/skills/yc-6-growing-and-monetizing/references/`:
    - `setting-kpis-and-goals.md` — Divya Bhat (YC)
    - `key-startup-metrics.md` — Tom Blomfield (YC)
    - `yc-guide-to-business-models.md` — Aaron Epstein (YC)
@@ -89,13 +89,13 @@ Questions to ask interactively:
 ## Bonus Content
 
 The bonus folder contains additional growth and monetization lectures that extend this module:
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/bonus/consumer-startup-metrics.md` — DAU/MAU, D1/D7/D30 retention benchmarks by category
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/bonus/how-to-improve-cohort-retention.md` — Cohort analysis, aha moment, time-to-value
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/bonus/how-to-price-for-b2b.md` — Value-based pricing, B2B pricing tiers, the pricing conversation
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/bonus/how-to-get-the-most-out-of-vibe-coding.md` — AI-assisted development for faster iteration
+- `${CLAUDE_PLUGIN_ROOT}/references/bonus/consumer-startup-metrics.md` — DAU/MAU, D1/D7/D30 retention benchmarks by category
+- `${CLAUDE_PLUGIN_ROOT}/references/bonus/how-to-improve-cohort-retention.md` — Cohort analysis, aha moment, time-to-value
+- `${CLAUDE_PLUGIN_ROOT}/references/bonus/how-to-price-for-b2b.md` — Value-based pricing, B2B pricing tiers, the pricing conversation
+- `${CLAUDE_PLUGIN_ROOT}/references/bonus/how-to-get-the-most-out-of-vibe-coding.md` — AI-assisted development for faster iteration
 
 ## References
 
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-6/setting-kpis-and-goals.md` — Divya Bhat (YC)
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-6/key-startup-metrics.md` — Tom Blomfield (YC)
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-6/yc-guide-to-business-models.md` — Aaron Epstein (YC)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-6-growing-and-monetizing/references/setting-kpis-and-goals.md` — Divya Bhat (YC)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-6-growing-and-monetizing/references/key-startup-metrics.md` — Tom Blomfield (YC)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-6-growing-and-monetizing/references/yc-guide-to-business-models.md` — Aaron Epstein (YC)

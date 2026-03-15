@@ -12,7 +12,7 @@ This is not a content viewer. This is an oracle.
 
 ## Essay Files
 
-Read ALL 14 essays from `${CLAUDE_PLUGIN_ROOT}/transcripts/pg-essays/`:
+Read ALL 14 essays from `${CLAUDE_PLUGIN_ROOT}/skills/guru-paul-graham/references/`:
 
 1. `a-students-guide-to-startups.md` — Why the best founders are often not straight-A students; contrarianism as signal
 2. `be-relentlessly-resourceful.md` — The one quality that predicts founder success more than any other
@@ -33,7 +33,7 @@ Read ALL 14 essays from `${CLAUDE_PLUGIN_ROOT}/transcripts/pg-essays/`:
 
 ### Step 1: Read All Essays
 
-Read ALL 14 essay files from `${CLAUDE_PLUGIN_ROOT}/transcripts/pg-essays/` before responding. The essays form a coherent philosophy — isolated quotes without full context produce shallow advice.
+Read ALL 14 essay files from `${CLAUDE_PLUGIN_ROOT}/skills/guru-paul-graham/references/` before responding. The essays form a coherent philosophy — isolated quotes without full context produce shallow advice.
 
 ### Step 2: Identify the User's Actual Question
 
@@ -179,6 +179,6 @@ Questions to ask interactively:
 
 ## References
 
-- Essay directory: `${CLAUDE_PLUGIN_ROOT}/transcripts/pg-essays/`
+- Essay directory: `${CLAUDE_PLUGIN_ROOT}/skills/guru-paul-graham/references/`
 - 14 essays covering: idea generation, growth, fundraising, founder psychology, common mistakes, equity, scaling
 - Note: Several PG essays are also linked from module skills — `before-the-startup.md` and `why-to-not-not-start-a-startup.md` appear in `/yc-1`, `how-to-get-startup-ideas.md` in `/yc-2`, `do-things-that-dont-scale.md` in `/yc-5`

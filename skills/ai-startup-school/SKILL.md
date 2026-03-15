@@ -10,7 +10,7 @@ Read all 15 AI Startup School transcripts and synthesize the key cross-cutting i
 
 ## Transcript Files
 
-All transcripts are located at `${CLAUDE_PLUGIN_ROOT}/transcripts/ai-startup-school/`:
+All transcripts are located at `${CLAUDE_PLUGIN_ROOT}/skills/ai-startup-school/references/`:
 
 1. `andrej-karpathy-software-is-changing-again.md` — Software 3.0, LLMs as new compute layer
 2. `andrew-ng-building-faster-with-ai.md` — AI-augmented workflows, iteration speed
@@ -32,7 +32,7 @@ All transcripts are located at `${CLAUDE_PLUGIN_ROOT}/transcripts/ai-startup-sch
 
 ### Step 1: Read All Transcripts
 
-Read ALL 15 transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/ai-startup-school/` before generating any response. Cross-transcript synthesis is the core value of this skill — do not skip files.
+Read ALL 15 transcript files from `${CLAUDE_PLUGIN_ROOT}/skills/ai-startup-school/references/` before generating any response. Cross-transcript synthesis is the core value of this skill — do not skip files.
 
 ### Step 2: Understand the User's Context
 
@@ -149,5 +149,5 @@ Questions to ask interactively:
 
 ## References
 
-- Transcript directory: `${CLAUDE_PLUGIN_ROOT}/transcripts/ai-startup-school/`
+- Transcript directory: `${CLAUDE_PLUGIN_ROOT}/skills/ai-startup-school/references/`
 - 15 files covering: Karpathy, Ng, Srinivas, Finn, Musk, panel, Fei-Fei Li, Field, Chollet, Jumper, Truell, Altman, Nadella, Kaplan, Masad

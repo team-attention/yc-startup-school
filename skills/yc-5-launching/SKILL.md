@@ -14,7 +14,7 @@ description: |
 
 ## Instructions
 
-1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-5/`:
+1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/skills/yc-5-launching/references/`:
    - `the-best-way-to-launch-your-startup.md` — Kat Mañalac (YC Partner)
    - `how-to-get-your-first-customers.md` — Gustaf Alströmer (YC Group Partner)
    - `do-things-that-dont-scale.md` — Paul Graham (also via `/pg` skill)
@@ -91,10 +91,10 @@ Questions to ask interactively:
 ## Bonus Content
 
 The bonus folder contains a cold email tactics lecture relevant to first customer acquisition:
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/bonus/how-to-convert-customers-with-cold-emails.md` — Cold email funnel, subject lines, body structure, follow-up sequences
+- `${CLAUDE_PLUGIN_ROOT}/references/bonus/how-to-convert-customers-with-cold-emails.md` — Cold email funnel, subject lines, body structure, follow-up sequences
 
 ## References
 
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-5/the-best-way-to-launch-your-startup.md` — Kat Mañalac
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-5/how-to-get-your-first-customers.md` — Gustaf Alströmer
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-5/do-things-that-dont-scale.md` — Paul Graham (also via `/pg` skill)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-5-launching/references/the-best-way-to-launch-your-startup.md` — Kat Mañalac
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-5-launching/references/how-to-get-your-first-customers.md` — Gustaf Alströmer
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-5-launching/references/do-things-that-dont-scale.md` — Paul Graham (also via `/pg` skill)

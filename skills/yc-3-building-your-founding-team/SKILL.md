@@ -15,7 +15,7 @@ description: |
 
 ## Instructions
 
-1. Read ALL three transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-3/`:
+1. Read ALL three transcript files from `${CLAUDE_PLUGIN_ROOT}/skills/yc-3-building-your-founding-team/references/`:
    - `keys-to-successful-co-founder-relationships.md` — Catheryn Li & Divya Bhat (YC)
    - `co-founder-equity-mistakes-to-avoid.md` — Michael Seibel (YC Group Partner)
    - `how-to-find-a-co-founder.md` — Harj Taggar (YC Group Partner)
@@ -93,6 +93,6 @@ Questions to ask interactively:
 
 ## References
 
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-3/keys-to-successful-co-founder-relationships.md` — Catheryn Li & Divya Bhat (YC)
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-3/co-founder-equity-mistakes-to-avoid.md` — Michael Seibel (YC Group Partner)
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-3/how-to-find-a-co-founder.md` — Harj Taggar (YC Group Partner)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-3-building-your-founding-team/references/keys-to-successful-co-founder-relationships.md` — Catheryn Li & Divya Bhat (YC)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-3-building-your-founding-team/references/co-founder-equity-mistakes-to-avoid.md` — Michael Seibel (YC Group Partner)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-3-building-your-founding-team/references/how-to-find-a-co-founder.md` — Harj Taggar (YC Group Partner)

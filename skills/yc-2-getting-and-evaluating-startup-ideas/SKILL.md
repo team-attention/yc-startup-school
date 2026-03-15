@@ -15,7 +15,7 @@ description: |
 
 ## Instructions
 
-1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-2/`:
+1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/skills/yc-2-getting-and-evaluating-startup-ideas/references/`:
    - `how-to-get-startup-ideas.md` — Jared Friedman (YC Partner)
    - `pg-how-to-get-startup-ideas.md` — Paul Graham
 2. Present the key frameworks and mental models with speaker attribution
@@ -88,5 +88,5 @@ Questions to ask interactively:
 
 ## References
 
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-2/how-to-get-startup-ideas.md` — Jared Friedman (YC Partner)
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-2/pg-how-to-get-startup-ideas.md` — Paul Graham (also via `/pg` skill)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-2-getting-and-evaluating-startup-ideas/references/how-to-get-startup-ideas.md` — Jared Friedman (YC Partner)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-2-getting-and-evaluating-startup-ideas/references/pg-how-to-get-startup-ideas.md` — Paul Graham (also via `/pg` skill)

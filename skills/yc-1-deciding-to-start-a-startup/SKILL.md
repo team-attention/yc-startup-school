@@ -15,7 +15,7 @@ description: |
 
 ## Instructions
 
-1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-1/`:
+1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/skills/yc-1-deciding-to-start-a-startup/references/`:
    - `should-you-start-a-startup.md` — Harj Taggar (YC Group Partner)
    - `why-to-not-not-start-a-startup.md` — Paul Graham
    - `before-the-startup.md` — Paul Graham
@@ -76,6 +76,6 @@ Questions to ask interactively:
 
 ## References
 
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-1/should-you-start-a-startup.md` — Harj Taggar (YC Group Partner)
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-1/why-to-not-not-start-a-startup.md` — Paul Graham (also via `/pg` skill)
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-1/before-the-startup.md` — Paul Graham (also via `/pg` skill)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-1-deciding-to-start-a-startup/references/should-you-start-a-startup.md` — Harj Taggar (YC Group Partner)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-1-deciding-to-start-a-startup/references/why-to-not-not-start-a-startup.md` — Paul Graham (also via `/pg` skill)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-1-deciding-to-start-a-startup/references/before-the-startup.md` — Paul Graham (also via `/pg` skill)

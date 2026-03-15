@@ -14,7 +14,7 @@ description: |
 
 ## Instructions
 
-1. Read ALL three transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-4/`:
+1. Read ALL three transcript files from `${CLAUDE_PLUGIN_ROOT}/skills/yc-4-planning-an-mvp/references/`:
    - `how-to-talk-to-users.md` — Gustaf Alströmer (YC Group Partner, ex-Airbnb)
    - `how-to-build-an-mvp.md` — Michael Seibel (YC Group Partner)
    - `tips-for-technical-startup-founders.md` — Diana Hu (YC Group Partner, ex-CTO Escher Reality/Niantic)
@@ -93,6 +93,6 @@ Questions to ask interactively:
 
 ## References
 
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-4/how-to-talk-to-users.md` — Gustaf Alströmer
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-4/how-to-build-an-mvp.md` — Michael Seibel
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-4/tips-for-technical-startup-founders.md` — Diana Hu
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-4-planning-an-mvp/references/how-to-talk-to-users.md` — Gustaf Alströmer
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-4-planning-an-mvp/references/how-to-build-an-mvp.md` — Michael Seibel
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-4-planning-an-mvp/references/tips-for-technical-startup-founders.md` — Diana Hu

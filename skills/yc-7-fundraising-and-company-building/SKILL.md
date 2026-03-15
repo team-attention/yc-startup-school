@@ -13,7 +13,7 @@ description: |
 
 ## Instructions
 
-1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-7/`:
+1. Read ALL transcript files from `${CLAUDE_PLUGIN_ROOT}/skills/yc-7-fundraising-and-company-building/references/`:
    - `how-startup-fundraising-works.md` — Brad Flora (YC Partner)
    - `how-to-apply-and-succeed-at-yc.md` — Dalton Caldwell (YC Managing Director)
 2. Present key frameworks from each lecture with speaker attribution
@@ -86,9 +86,9 @@ Questions to ask interactively:
 ## Bonus Content
 
 The bonus folder contains a foundational legal vocabulary lecture relevant to this module:
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/bonus/starting-a-company-the-key-terms-you-should-know.md` — Cap table, common vs. preferred stock, option pool, term sheet components, key documents
+- `${CLAUDE_PLUGIN_ROOT}/references/bonus/starting-a-company-the-key-terms-you-should-know.md` — Cap table, common vs. preferred stock, option pool, term sheet components, key documents
 
 ## References
 
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-7/how-startup-fundraising-works.md` — Brad Flora (YC Partner)
-- `${CLAUDE_PLUGIN_ROOT}/transcripts/startup-school/module-7/how-to-apply-and-succeed-at-yc.md` — Dalton Caldwell (YC Managing Director)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-7-fundraising-and-company-building/references/how-startup-fundraising-works.md` — Brad Flora (YC Partner)
+- `${CLAUDE_PLUGIN_ROOT}/skills/yc-7-fundraising-and-company-building/references/how-to-apply-and-succeed-at-yc.md` — Dalton Caldwell (YC Managing Director)

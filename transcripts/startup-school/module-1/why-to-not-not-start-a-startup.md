@@ -1,1 +1,0 @@
-../../pg-essays/why-to-not-not-start-a-startup.md

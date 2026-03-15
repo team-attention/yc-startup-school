@@ -32,7 +32,7 @@ You type `/yc-4` and Claude reads the full transcript of "How to Talk to Users",
 | `/yc-ai` | AI Startup School | Karpathy, Altman, Musk, Nadella + 11 more |
 | `/pg` | Paul Graham Guru | 14 essays. Ask anything, get PG's voice. |
 
-Each skill: **reads transcripts** → **presents frameworks** → **analyzes your project** → **interactive workbook with AskUserQuestion** → **saves assessment**.
+Each skill has its own `references/` folder with the full transcripts co-located. The skill **reads its references** → **presents frameworks** → **analyzes your project** → **interactive workbook with AskUserQuestion** → **saves assessment**.
 
 ---
 
@@ -104,6 +104,27 @@ Claude: [reads all 14 PG essays]
 ```
 
 ---
+
+## Project Structure
+
+```
+skills/
+  yc-1-deciding-to-start-a-startup/
+    SKILL.md              ← skill definition
+    references/           ← co-located transcripts
+  yc-2-getting-and-evaluating-startup-ideas/
+    SKILL.md
+    references/
+  ...
+  ai-startup-school/
+    SKILL.md
+    references/           ← 15 AI leader transcripts
+  guru-paul-graham/
+    SKILL.md
+    references/           ← 14 PG essays
+references/bonus/         ← extra lectures not in official curriculum
+scripts/                  ← scraper
+```
 
 ## Data Sources
 

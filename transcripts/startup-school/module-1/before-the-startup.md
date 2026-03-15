@@ -1,1 +1,0 @@
-../../pg-essays/before-the-startup.md

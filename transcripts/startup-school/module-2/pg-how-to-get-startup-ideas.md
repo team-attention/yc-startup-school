@@ -1,1 +1,0 @@
-../../pg-essays/how-to-get-startup-ideas.md
